@@ -1,3 +1,7 @@
+# tauri-plugin-printer-sujin999
+This is a fork of the original [tauri-plugin-printer](https://github.com/alfianlensundev/tauri-plugin-printer) project.
+
+
 # Tauri Plugin Printer
 Interface with printers through [Powershell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3)
 
@@ -216,3 +220,8 @@ await remove_job(id)
 Code: (c) 2023 - Present Alfian Lensun.
 
 MIT where applicable.
+
+
+## Original Project
+
+This project is based on the original [tauri-plugin-printer](https://github.com/alfianlensundev/tauri-plugin-printer) created by [alfianlensundev](https://github.com/alfianlensundev).

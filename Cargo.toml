@@ -1,26 +1,18 @@
 [package]
-name = "tauri-plugin-printer"
-version = "1.0.10"
+name = "tauri-plugin-printer-sujin999"
+version = "1.0.15"
 edition = "2021"
-authors = ["Alfian Lensun <alfianlensundev@gmail.com>"]
-description = "Tauri Plugin for printer access"
-homepage = "https://crates.io/crates/tauri-plugin-printer"
+authors = ["Sujin Park, Original author: Alfian Lensun"]
+description = "Tauri Plugin for printer access (Edit)"
 readme = "README.md"
 rust-version = "1.60"
 exclude = ["/examples"]
-keywords = [
-    "tauri",
-    "printer",
-    "print",
-    "printing",
-    "json"
-]
+keywords = []
 categories = [
     "os",
     "os::windows-apis"
 ]
 license = "MIT"
-repository = "https://github.com/alfianlensundev/tauri-plugin-printer"
 
 
 [dependencies]

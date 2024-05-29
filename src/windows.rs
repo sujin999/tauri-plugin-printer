@@ -67,11 +67,23 @@ pub fn get_printers_by_name(printername: String) -> String {
  */
 pub fn print_pdf (options: PrintOptions) -> String {
     let dir: std::path::PathBuf = env::temp_dir();
-    let print_setting: String = options.print_setting;
+    let mut print_setting: String = options.print_setting;
     let mut print: String = "-print-to-default".to_owned();
-    if options.id.len() == 0 {
+    //if options.id.len() == 0 {
+    if !options.id.is_empty() {
         print = format!("-print-to {}", options.id).to_owned();
     }
+
+    println!("{}", print_setting);
+
+    // Remove leading comma if present before
+    if let Some(index) = print_setting.find(",") {
+        print_setting.replace_range(0..index, "");
+    }
+
+    println!("{}", print_setting);
+
+
     let shell_command = format!("{}sm.exe {} {} -silent {}", dir.display(), print, print_setting, options.path);
     
 

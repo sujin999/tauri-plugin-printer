@@ -570,6 +570,18 @@
   dependencies:
     "@sinonjs/commons" "^3.0.0"
 
+"@sujin999/tauri-plugin-printer@1.0.12":
+  version "1.0.12"
+  resolved "https://npm.pkg.github.com/download/@sujin999/tauri-plugin-printer/1.0.12/f150f0dae254b03ed752998a6c3d8c7c627bf17c#f150f0dae254b03ed752998a6c3d8c7c627bf17c"
+  integrity sha512-8NleDqXSwhT3r2l3zTkBE0SHh+xEMG/8sE0pKH4QSNnBptKkfURWRmzDzylVewFQeKVTXasNO14Q31fs3vPT5w==
+  dependencies:
+    buffer "^6.0.3"
+    html2canvas "^1.4.1"
+    jsbarcode "^3.11.6"
+    jspdf "^2.5.1"
+    mime "^4.0.1"
+    qrcode "^1.5.3"
+
 "@tauri-apps/api@^1.3.0":
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@tauri-apps/api/-/api-1.3.0.tgz#d0c853ab2cc7506bd826c5f7f260c67c7c15def5"

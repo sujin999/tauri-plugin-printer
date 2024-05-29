@@ -1,12 +1,12 @@
 {
-  "name": "tauri-plugin-printer",
-  "version": "1.0.12",
+  "name": "@sujin999/tauri-plugin-printer",
+  "version": "1.0.14",
   "description": "Tauri Plugin for printer access",
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",
   "readme": "README.md",
-  "repository": "https://github.com/alfianlensundev/tauri-plugin-printer.git",
-  "author": "alfianlensun <alfianlensundev@gmail.com>",
+  "repository": "https://github.com/sujin999/tauri-plugin-printer",
+  "author": "",
   "license": "MIT",
   "keywords": [
     "tauri",
@@ -27,6 +27,7 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
+    "@sujin999/tauri-plugin-printer": "1.0.12",
     "buffer": "^6.0.3",
     "html2canvas": "^1.4.1",
     "jsbarcode": "^3.11.6",
